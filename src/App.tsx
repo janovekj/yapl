@@ -9,7 +9,12 @@ function App({}: AppProps) {
   return (
     <div className="App">
       <button
-        style={{ padding: '32px', fontSize: '32px' }}
+        style={{
+          padding: '59px',
+          fontSize: '49px',
+          backgroundColor: 'green',
+          color: 'white',
+        }}
         onClick={() => setShow(true)}
       >
         Make the world a better place
